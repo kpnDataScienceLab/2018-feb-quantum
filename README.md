@@ -35,4 +35,5 @@ h q[2];
 measure q[1] -> c[1];
 measure q[2] -> c[2];
 ```
-
+## Quantum gates
+[overview](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=005-Single-Qubit_Gates~2F006-Summary_of_quantum_gates)
