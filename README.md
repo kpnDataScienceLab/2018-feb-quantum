@@ -8,3 +8,31 @@ The goal of this lab day is understanding [Grovers Algorithm](https://quantumexp
 * Basic knowledge of Quantum Mechanics.
 * free credentials for [IBM Quantum Experience](https://www.research.ibm.com/ibm-q/)
 * knowledge of Python.
+
+## QASM example
+
+```
+include "qelib1.inc";
+qreg q[5];
+creg c[5];
+
+h q[1];
+h q[2];
+h q[2];
+cx q[1],q[2];
+h q[2];
+h q[1];
+h q[2];
+x q[1];
+x q[2];
+h q[2];
+cx q[1],q[2];
+h q[2];
+x q[1];
+x q[2];
+h q[1];
+h q[2];
+measure q[1] -> c[1];
+measure q[2] -> c[2];
+```
+
